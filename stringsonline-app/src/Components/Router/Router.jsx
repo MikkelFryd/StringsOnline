@@ -16,7 +16,7 @@ export const AppRouter = () => {
                 <Route path="Keyboards" element={<Products />} />
                 <Route path="Trommer" element={<Products />} />
                 <Route path="Percussion" element={<Products />} />
-                <Route path="Stryg & Blæs" element={<Products />} />
+                <Route path="Stryg" element={<Products />} />
                 <Route path="Brands" element={<Products />}>
                     <Route path="Fender" element={<Products />} />
                     <Route path="Gibson" element={<Products />} />

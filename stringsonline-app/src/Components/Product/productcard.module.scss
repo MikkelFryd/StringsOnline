@@ -1,0 +1,26 @@
+.productcard {
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+    color: white;
+    border: 1px solid grey;
+    padding: 1rem;
+    align-items: center;
+    img {
+        width: 100%;
+    }
+    .pricecontainer {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0.5rem;
+        div {
+            border: 1px solid grey;
+            border-radius: 4px;
+        padding: 4px;
+
+        }
+        button {
+            border-radius: 4px;
+            background-color: #d10061;
+        }
+    }
+}

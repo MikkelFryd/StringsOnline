@@ -1,0 +1,14 @@
+
+header {
+    width: 100%;
+    border: 2px solid white;
+    min-height: 30vh;
+    .navcontainer {
+        background-image: url(../../assets/images/header-bg.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 95%;
+        margin: auto;
+        height: 10vh;
+    }
+}

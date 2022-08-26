@@ -1,0 +1,39 @@
+
+.loginform {
+    width: 80%;
+    margin: auto;
+    padding: 8px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    h2 {
+        text-align: left;
+        font-weight: 300;
+        color: white;
+    }
+    h4 {
+        text-align: left;
+        color: white;
+    }
+    div {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        justify-content: left;
+        label {
+            text-align: center;
+            font-size: 0.9rem;
+            color: white;
+        }
+        input {
+            width: 100%;
+            margin: auto;            
+        }
+        button {
+            width: 100%;
+            margin: auto;
+            border-radius: 4px;
+            background-color: #00f9b6;
+
+            padding: 4px;
+        }
+    }
+}

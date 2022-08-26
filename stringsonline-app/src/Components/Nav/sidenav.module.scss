@@ -1,11 +1,18 @@
-
+@font-face {
+    font-family: 'TitilliumWebRegular';
+    src: local("TitilliumWebRegular") format('truetype') url('../../fonts/TitilliumWeb-Regular.ttf');
+  }
 
 .sidenav {
-    width: 100%;
+    width: 15vw;
     text-decoration: none;
+    background-color: #0a1d1c;
+    height: 40vh;
+    border: #00f9b6 2px solid;
     .gridcontainer {
         margin: 0;
         list-style: none;
+        display: grid;
         gap: 1rem;
         padding: 8px;
         .dropdown {
@@ -20,7 +27,9 @@
                 display: inline-block;
                 list-style: none;
                 a {
-                    color: #333;
+                    font-family: 'TitilliumWebRegular';
+                    color: #00f9b6;
+                    padding: 8px;
                 }
             }
         }
@@ -29,7 +38,7 @@
                 display: inline-block;
                 list-style: none;
                 a {
-                    color: #333;
+                    color: #00f9b6;
                 }
             }
         }
@@ -44,8 +53,8 @@
         }
         a {
             text-decoration: none;
-            color: #333;
-            font-weight: 600;
+            color: #00f9b6;
+            padding: 8px;
         }
     }
     @keyframes animate {

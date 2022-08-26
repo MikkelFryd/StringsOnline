@@ -1,10 +1,13 @@
+import Style from './productbasket.module.scss'
+import { NavLink } from 'react-router-dom'
 
 
 export const ProductBasket = () => {
 
+
+
     return (
-        <div>
-            <button>Basket</button>
-        </div>
+        <NavLink to='cart' className={Style.productbasket}></NavLink>
     )
 }
+    

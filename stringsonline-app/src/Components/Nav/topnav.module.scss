@@ -1,0 +1,23 @@
+.topnav {
+    width: 30%;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    height: 9vh;
+    padding-top: 1vh;
+    a {
+        color: #fff;
+        text-align: center;
+        padding: 4px;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+    .loginbutton {
+        width: 80%;
+        background-color: #00f9b6;
+        color: #333;
+    }
+
+}

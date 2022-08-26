@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'TitilliumWebRegular';
+    src: local("TitilliumWebRegular") format('truetype') url('../../fonts/TitilliumWeb-Regular.ttf');
+  }
+
+.sidenav {
+    width: 15vw;
+    text-decoration: none;
+    background-color: #0a1d1c;
+    height: 40vh;
+    border: #00f9b6 2px solid;
+    .gridcontainer {
+        margin: 0;
+        list-style: none;
+        display: grid;
+        gap: 1rem;
+        padding: 8px;
+        .dropdown {
+            width: 100%;
+            // height: 3vh;
+            list-style: none;
+            padding: 0;
+            // margin: 0;
+        }
+        li:first-of-type:hover {
+            .dropdownlinks {
+                display: inline-block;
+                list-style: none;
+                a {
+                    font-family: 'TitilliumWebRegular';
+                    color: #00f9b6;
+                    padding: 8px;
+                }
+            }
+        }
+        li:last-of-type:hover {
+            .dropdownlinks {
+                display: inline-block;
+                list-style: none;
+                a {
+                    color: #00f9b6;
+                }
+            }
+        }
+        .dropdownlinks {
+            display: none;
+            border: 0px;
+            width: 70%;
+            padding: 4px;
+            animation: animate 0.4s ease-in-out;
+            animation-play-state: running;
+            animation-iteration-count: 1;
+        }
+        a {
+            text-decoration: none;
+            color: #00f9b6;
+            padding: 8px;
+        }
+    }
+    @keyframes animate {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+}

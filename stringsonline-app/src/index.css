@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: black;
+  font-family: 'TitilliumWebRegular';
+}
+
+@font-face {
+  font-family: 'TitilliumWebRegular';
+  src: local("TitilliumWebRegular") format('truetype') url('./fonts/TitilliumWeb-Regular.ttf');
+}

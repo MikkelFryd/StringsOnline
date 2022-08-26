@@ -1,0 +1,15 @@
+
+.home {
+    background-color: black;
+
+    .maingrid {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        padding: 2vw;
+    }
+}
+
+$greyish: #2c3737;
+
+$alsogrey: #393939
+

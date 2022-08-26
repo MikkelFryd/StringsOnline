@@ -1,0 +1,22 @@
+
+
+.infobar {
+    color: white;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+    .gridbox {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        align-items: center;
+        width: 50%;
+        margin: auto;
+    }
+    .gridcontainer {
+        display: grid;
+        grid-template-columns: 40% 40% 20%;
+    }
+    p {
+        font-size: 0.9rem;
+    }
+}
